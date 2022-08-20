@@ -1,1 +1,1 @@
-web: bash setup.sh && node app
+web: node app

@@ -3,6 +3,15 @@ const bodyParser = require('body-parser')
 const cors = require("cors")
 const app = express()
 const PORT = process.env.PORT
+const fs = require("fs");
+
+const dataDirs = ["Data/Offers", "Data/Answers"]
+
+dataDirs.forEach(dir => {
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true })
+    }
+})
 
 const offerRouter = require("./routes/Offers")
 const answerRouter = require("./routes/Answers")
