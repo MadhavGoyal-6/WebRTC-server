@@ -1,6 +1,6 @@
 # **WebRTC-server**
 
-This is the WebRTC server to be used with [WebRTC-EveryWhere]() tool as a signalling server. This server, unlike other signalling servers, only uses http web requests.
+This is the WebRTC server to be used with [WebRTC-EveryWhere](https://github.com/MadhavGoyal-6/WebRTC-everywhere) tool as a signalling server. This server, unlike other signalling servers, only uses http web requests.
 
 # Getting Started
 
